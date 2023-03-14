@@ -5,7 +5,7 @@ variable "instance_type" {
 
 variable "name" {
     type = string
-    default = "ankit_private_cloud_registry"
+    default = "ankit_jenkins"
 }
 
 variable "env" {
