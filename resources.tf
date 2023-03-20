@@ -5,7 +5,7 @@ resource "aws_instance" "s1" {
   tags = {
     Name = var.name
     Env = var.env
-    Dept= Sales
+    Dept= "Sales"
     Owner = var.owner
   }
 }
